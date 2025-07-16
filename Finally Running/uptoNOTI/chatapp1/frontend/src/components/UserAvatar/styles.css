@@ -1,0 +1,18 @@
+
+.messages{
+    /* display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    background-color: #f0f0f0; Add a background color for visibility */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Ensure this allows scrolling */
+    height: 100%; /* Make sure it fills the available height */
+    background-color: #f0f0f0; /* Add a background color for visibility */
+
+}
+
+.messages::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
